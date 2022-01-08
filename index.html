@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git项目模板</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <h1>陈汉123大帅比</h1>
+    <script src="../JS/index.js"></script>
+    <!-- 
+        1:  操作：增删改
+            git add . 提交到暂存区
+            git restore 从暂存区里面取消某个操作
+            git commit -m "提交信息"
+
+        2： git log: 查看当前版本以及之前的版本记录
+            git reflog:查看历史所有记录
+            git reset --hard 版本号
+        
+        3. git remote add origin git@gitee.com:chenqxd/gitlearning.git 本地代码与远程代码进行联系
+            git push origin 推送到远程服务器igin 把本地代码
+            git pull origin master 从远程服务器拿数据
+        4.git branch 展示分支目前有哪些分支
+          git branch dev 新建分支
+          git checkout dev 切换分支
+          在分支A上新建了一个分支B，那么分支B和分支A最后一次(当前)提交的状态一致
+          要把b分支的代码合并到a分支
+                1.我们把当前分支切换回a分支。git checkout a
+                2.在a分支上，执行git merge b
+        个人分支上，保存一个完整地功能：自测通过的
+            git branch -d 分支名 删除分支
+     -->
+</body>
+</html>
